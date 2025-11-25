@@ -1,4 +1,13 @@
 {
   "item.woodvariants.spruce_stick": "Spruce Stick",
-  "item.woodvariants.acacia_stick": "Acacia Stick"
+  "item.woodvariants.acacia_stick": "Acacia Stick",
+  "item.woodvariants.birch_stick": "Birch Stick",
+  "item.woodvariants.cherry_stick": "Cherry Stick",
+  "item.woodvariants.crimson_stick": "Crimson Stick",
+  "item.woodvariants.dark_oak_stick": "Dark Oak Stick",
+  "item.woodvariants.jungle_stick": "Jungle Stick",
+  "item.woodvariants.mangrove_stick": "Mangrove Stick",
+  "item.woodvariants.pale_oak_stick": "Pale Oak Stick",
+  "item.woodvariants.warped_stick": "Warped Stick",
+  "item.minecraft.stick": "Oak Stick"
 }
