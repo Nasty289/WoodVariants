@@ -16,6 +16,8 @@ public class ModItems {
 
     public static final Item SPRUCE_STICK = registerItem("spruce_stick", setting -> new Item(setting));
 
+    public static final Item ACACIA_STICK = registerItem("acacia_stick", setting -> new Item(setting));
+
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {
         return Registry.register(Registries.ITEM, Identifier.of(WoodVariants.MOD_ID, name),
                 function.apply(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(WoodVariants.MOD_ID, name)))));
@@ -26,6 +28,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(SPRUCE_STICK);
+            entries.add(ACACIA_STICK);
         });
     }
 }
