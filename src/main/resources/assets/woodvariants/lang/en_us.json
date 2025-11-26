@@ -10,5 +10,9 @@
   "item.woodvariants.pale_oak_stick": "Pale Oak Stick",
   "item.woodvariants.warped_stick": "Warped Stick",
   "item.minecraft.stick": "Oak Stick",
-  "itemgroup.wood_variants.wood_variants_ingredients": "Ingredients"
+
+  "block.woodvariants.spruce_crafting_table": "Spruce Crafting Table",
+
+  "itemgroup.wood_variants.wood_variants_ingredients": "Ingredients",
+  "itemgroup.wood_variants.wood_variants_functional": "Functional Blocks"
 }

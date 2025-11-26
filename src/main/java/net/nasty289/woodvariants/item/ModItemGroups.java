@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.nasty289.woodvariants.WoodVariants;
+import net.nasty289.woodvariants.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -26,6 +27,14 @@ public class ModItemGroups {
                         entries.add(ModItems.JUNGLE_STICK);
                         entries.add(ModItems.MANGROVE_STICK);
                         entries.add(ModItems.PALE_OAK_STICK);
+                    }).build());
+
+    public static final ItemGroup WOOD_VARIANTS_FUNCTIONAL_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(WoodVariants.MOD_ID, "wood_variants_functional"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.SPRUCE_CRAFTING_TABLE))
+                    .displayName(Text.translatable("itemgroup.wood_variants.wood_variants_functional"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.SPRUCE_CRAFTING_TABLE);
                     }).build());
 
     public static void registerItemGroups() {
