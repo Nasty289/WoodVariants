@@ -32,18 +32,5 @@ public class ModItems {
 
     public static void registerModItems() {
         WoodVariants.LOGGER.info("Registering Mod Items for " + WoodVariants.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(SPRUCE_STICK);
-            entries.add(BIRCH_STICK);
-            entries.add(ACACIA_STICK);
-            entries.add(CHERRY_STICK);
-            entries.add(CRIMSON_STICK);
-            entries.add(DARK_OAK_STICK);
-            entries.add(JUNGLE_STICK);
-            entries.add(MANGROVE_STICK);
-            entries.add(PALE_OAK_STICK);
-            entries.add(WARPED_STICK);
-        });
     }
 }

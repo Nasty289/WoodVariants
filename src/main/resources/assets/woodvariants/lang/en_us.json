@@ -9,5 +9,6 @@
   "item.woodvariants.mangrove_stick": "Mangrove Stick",
   "item.woodvariants.pale_oak_stick": "Pale Oak Stick",
   "item.woodvariants.warped_stick": "Warped Stick",
-  "item.minecraft.stick": "Oak Stick"
+  "item.minecraft.stick": "Oak Stick",
+  "itemgroup.wood_variants.wood_variants_ingredients": "Ingredients"
 }

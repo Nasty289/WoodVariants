@@ -2,6 +2,7 @@ package net.nasty289.woodvariants;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.nasty289.woodvariants.item.ModItemGroups;
 import net.nasty289.woodvariants.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,7 @@ public class WoodVariants implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        ModItemGroups.registerItemGroups();
         ModItems.registerModItems();
 	}
 }
